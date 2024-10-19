@@ -1,8 +1,18 @@
 # The Rust Programming Language
 
-This repository is dedicated to [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html) book and its exercises.
+This repository is dedicated to [The Rust Programming Language](https://doc.rust-lang.org/book/) book and its exercises.
 
-Each chapter of the book has its own folder and a `readme.md` file with a brief summary of the chapter and the slved exercises.
+It was created to help me learn Rust and to keep track of my progress while reading the book. For the official documentation, please visit the official [Learn Rust](https://www.rust-lang.org/learn) page.
+
+## Official Learning Links
+- [Learn Rust](https://www.rust-lang.org/learn)
+    - [Book - The Rust Programming Language](https://doc.rust-lang.org/book/)
+    - [Book - Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+    - [The Rustlings Course](https://github.com/rust-lang/rustlings/)
+
+## Project Structure
+
+Each chapter and sub-chapter of the book will have their own dedicated directory and a `readme.md` file with a brief summary of the chapter, the solved exercises, and some notes I might have taken while reading the book or solving the problems.
 
 ## Building and running the project's exercises
 
