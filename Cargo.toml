@@ -2,5 +2,8 @@
 resolver = "2"
 members = [
     "chapters/01_getting_started/hello_cargo",
+
     "chapters/02_programming_a_guessing_game/guessing_game",
+
+    "chapters/03_common_programming_concepts/1_variables_and_mutability",
 ]

@@ -33,3 +33,5 @@ cargo build
 
 1. [Getting Started](./chapters/01_getting_started/readme.md)
 2. [Programming a Guessing Game](./chapters/02_programming_a_guessing_game/readme.md)
+3. [Common Programming Concepts](./chapters/03_common_programming_concepts/readme.md)
+    1. [Variables and Mutability](./chapters/03_common_programming_concepts/1_variables_and_mutability/readme.md)
