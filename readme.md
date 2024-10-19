@@ -4,7 +4,7 @@ This repository is dedicated to [The Rust Programming Language](https://doc.rust
 
 It was created to help me learn Rust and to keep track of my progress while reading the book. For the official documentation, please visit the official [Learn Rust](https://www.rust-lang.org/learn) page.
 
-## Official Learning Links
+## Official Learning Resources
 - [Learn Rust](https://www.rust-lang.org/learn)
     - [Book - The Rust Programming Language](https://doc.rust-lang.org/book/)
     - [Book - Rust by Example](https://doc.rust-lang.org/rust-by-example/)
