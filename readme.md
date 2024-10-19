@@ -35,3 +35,7 @@ cargo build
 2. [Programming a Guessing Game](./chapters/02_programming_a_guessing_game/readme.md)
 3. [Common Programming Concepts](./chapters/03_common_programming_concepts/readme.md)
     1. [Variables and Mutability](./chapters/03_common_programming_concepts/1_variables_and_mutability/readme.md)
+    2. [Data Types](./chapters/03_common_programming_concepts/2_data_types/readme.md)
+    3. [Functions](./chapters/03_common_programming_concepts/3_functions/readme.md)
+    4. [Comments](./chapters/03_common_programming_concepts/4_comments/readme.md)
+    5. [Control Flow](./chapters/03_common_programming_concepts/5_control_flow/readme.md)

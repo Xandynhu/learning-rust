@@ -12,6 +12,15 @@ let mut y = 5;
 y = 6;
 ```
 
+## Naming Conventions
+
+Rust uses `snake_case` for variable names.
+
+```rust
+let variable = 6;
+let another_variable = 9;
+```
+
 ## Constants
 
 Constants are declared using the `const` keyword. Constants are **always** immutable and must be annotated with a `type`. Trying to use `mut` with a constant will result in a compilation error.
