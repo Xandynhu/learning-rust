@@ -1,3 +1,13 @@
+/*
+A simple number guessing game written in Rust.
+
+Game rules:
+    1. The user is prompted to guess a randomly generated number between 1 and 100.
+    2. After each guess, the program gives feedback whether the guess was too high, too low, or correct.
+    3. It tracks the number of guesses and displays it at the end when the user wins.
+    4. The player loses if they guess incorrectly 10 times.
+*/
+
 use rand::Rng;
 
 fn main() {
@@ -10,8 +20,7 @@ fn main() {
     let mut num_guesses = 0;
 
     // loop until the user guesses the number
-    let mut run_game = true;
-    while run_game {
+    while num_guesses < 10 {
 
         // print a prompt to the user
         print!("Please input your guess: ");
@@ -24,7 +33,6 @@ fn main() {
         let res = std::io::stdin().read_line(&mut guess);
         if res.is_err() {
             println!("Failed to read line: {}", res.err().unwrap());
-            run_game = false;
             continue;
         }
 
@@ -51,13 +59,18 @@ fn main() {
                 println!("Too big!");
             },
             std::cmp::Ordering::Equal => {
-                println!("You win!");
-                run_game = false;
-                continue;
+                break;
             }
         }
     }
 
-    // print the number of guesses
-    println!("You took {} guesses", num_guesses);
+    // check if the user has run out of guesses
+    if num_guesses == 10 {
+        println!("The secret number was: {secret_number}");
+        println!("You lose!");
+    } else {
+        // print the number of guesses
+        println!("You took {num_guesses} guesses to find the secret number {secret_number}!");
+        println!("You win!");
+    }
 }
