@@ -3,4 +3,5 @@ resolver = "2"
 members = [
     "chapters/01_getting_started/hello_cargo",
     "chapters/02_programming_a_guessing_game/guessing_game",
+    "chapters/05_using_structs_to_structure_related_data/3_method_syntax",
 ]

@@ -133,7 +133,7 @@ fn dangle() -> &String {                 // Returns a reference to a String
 }                                        // 's' is dropped, so now 'reference_to_nothing' is a dangling reference
 ```
 
-`Note`: This covers a bit of the `lifetime` topic, which will be covered in more detail later on [chapter 10](../10_generic_types_traits_and_lifetimes/readme.md).
+`NOTE`: This covers a bit of the `lifetime` topic, which will be covered in more detail later on [chapter 10](../10_generic_types_traits_and_lifetimes/readme.md).
 
 The "solution" here is simple: return the `String` directly, instead of a `reference`.
 
