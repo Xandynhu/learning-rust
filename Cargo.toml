@@ -2,12 +2,5 @@
 resolver = "2"
 members = [
     "chapters/01_getting_started/hello_cargo",
-
     "chapters/02_programming_a_guessing_game/guessing_game",
-
-    "chapters/03_common_programming_concepts/1_variables_and_mutability",
-    "chapters/03_common_programming_concepts/3_functions",
-    "chapters/03_common_programming_concepts/5_control_flow",
-    # "chapters/03_common_programming_concepts/2_data_types", # This chapter will not have a source code
-    # "chapters/03_common_programming_concepts/4_comments",   # This chapter will not have a source code
 ]
