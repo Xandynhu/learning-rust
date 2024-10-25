@@ -12,7 +12,7 @@ It was created to help me learn Rust and to keep track of my progress while read
 
 ## Project Structure
 
-Each chapter and sub-chapter of the book will have their own dedicated directory and a `readme.md` file with a brief summary of the chapter, the solved exercises, and some notes I might have taken while reading the book or solving the problems.
+Each one of the chapters and subchapters of the book will have their own dedicated directory and a `readme.md` file with a brief summary of the chapter, the solved exercises, and some notes I might have taken while reading the book or solving the problems.
 
 ## Building and running the project's exercises
 
