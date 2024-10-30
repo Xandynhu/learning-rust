@@ -1,6 +1,6 @@
-# The `match` Control Flow Construct
+# The ``match`` Control Flow Construct
 
-We already talked a bit about the `match` control flow construct in the [chapter 3.5](../../03_common_programming_concepts/5_control_flow/readme.md). In this chapter, we are going to explore it in more details, specially how it can be used with `Option<T>` and other `enums`.
+We already talked a bit about the ``match`` control flow construct in the [chapter 3.5](../../03_common_programming_concepts/5_control_flow/readme.md). In this chapter, we are going to explore it in more details, specially how it can be used with ``Option<T>`` and other ``enums``.
 
 Let's get started with an example:
 
@@ -54,7 +54,7 @@ fn value_in_cents(coin: Coin) -> u8 {
 }
 ```
 
-Matching with `Option<T>`:
+Matching with ``Option<T>``:
 
 ```rust
 fn plus_one(x: Option<i32>) -> Option<i32> {

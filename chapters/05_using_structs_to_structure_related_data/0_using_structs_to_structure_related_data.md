@@ -1,6 +1,6 @@
 # Chapter 5: Using Structs to Structure Related Data
 
-A `struct`, or `structure`, is a custom data type that lets we group related data together and name the group. It is pretty similar to structs in other programming languages, like `Go`, `C`, and `C++`.
+A ``struct``, or ``structure``, is a custom data type that lets we group related data together and name the group. It is pretty similar to structs in other programming languages, like ``Go``, ``C``, and ``C++``.
 
 ## Table of Contents
 

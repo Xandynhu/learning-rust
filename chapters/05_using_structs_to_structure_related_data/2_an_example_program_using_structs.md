@@ -49,7 +49,7 @@ fn area(rect: &Rectangle) -> u32 {
 
 ## Adding Useful Functionality with Derived Traits
 
-It would be useful to print the `Rectangle` struct to see its values while debugging the program. To do this, we can derive the `Debug` trait for the struct.
+It would be useful to print the ``Rectangle`` struct to see its values while debugging the program. To do this, we can derive the ``Debug`` trait for the struct.
 
 ```rust
 #[derive(Debug)]

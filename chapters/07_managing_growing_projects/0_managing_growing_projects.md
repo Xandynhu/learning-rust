@@ -1,25 +1,25 @@
 # Chapter 7: Managing Growing Projects with Packages, Crates, and Modules
 
-As we write large programs, organizing our code will become increasingly important. By grouping related functinality and separating code with distinct features, we can make our code easier to understand and maintain. In `Rust`, we can use `packages`, `crates`, and `modules` to organize our code.
+As we write large programs, organizing our code will become increasingly important. By grouping related functinality and separating code with distinct features, we can make our code easier to understand and maintain. In ``Rust``, we can use ``packages``, ``crates``, and ``modules`` to organize our code.
 
 1. The programs we've written so far in this repository have all **been in one module in one file**.
 
 2. As a project grows, we should organize code by splitting it into `multiple modules` and then `multiple files`. This chapter will cover how to do that.
 
-3. A `package` can contain **multiple** `binary crates` and **optionally one** `library crate`.
+3. A ``package`` can contain **multiple** ``binary crates`` and **optionally one** ``library crate``.
 
-4. As a package grows, we can extract parts into separate `crates` that other packages can use. They will become `external dependencies`.
+4. As a package grows, we can extract parts into separate ``crates`` that other packages can use. They will become ``external dependencies``.
 
 This chapter will cover all these techniques and a bit more.
 
-For very large projects, we can also use `workspaces` to manage multiple packages that are related to each other. We can have more details on `workspaces` in the [chapter 14](../14_more_about_cargo_and_crates_io/readme.md).
+For very large projects, we can also use ``workspaces`` to manage multiple packages that are related to each other. We can have more details on ``workspaces` in the [chapter 14](../14_more_about_cargo_and_crates_io/readme.md).
 
-Rust has a number of features that allow us to manage and organize our code, selecting whether to make our code `public` or `private`, and what `names` to `expose` in each `scope`. These features can be referred to as the `module system`.
+Rust has a number of features that allow us to manage and organize our code, selecting whether to make our code ``public`` or ``private``, and what ``names`` to ``expose`` in each ``scope``. These features can be referred to as the ``module system``.
 
-1. **`Packages:`** A `Cargo` feature that lets us build, test, and share `crates`.
-2. **`Crates:`** A `tree of modules` that produces a library or executable.
-3. **`Modules` and `use`:`** Lets us control the organization, scope, and privacy of paths.
-4. **`Paths:`** A way of `naming` an item, such as a struct, function, or module.
+1. **``Packages:``** A ``Cargo`` feature that lets us build, test, and share ``crates``.
+2. **``Crates:``** A ``tree of modules`` that produces a library or executable.
+3. **``Modules`` and ``use``:`** Lets us control the organization, scope, and privacy of paths.
+4. **``Paths:``** A way of ``naming`` an item, such as a struct, function, or module.
 
 
 ## Table of Contents

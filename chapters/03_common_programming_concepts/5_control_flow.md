@@ -1,18 +1,18 @@
 # Control Flow
 
-In Rust, just like most programming languages, we can control the flow of our program using what we call `control flow` statements.
+In Rust, just like most programming languages, we can control the flow of our program using what we call ``control flow`` statements.
 
 ## Control Flow Statements
 
-1. [`if` expressions](#if-expressions)
-2. [`loop` expressions](#loop-expressions)
-3. [`while` expressions](#while-expressions)
-4. [`for` expressions](#for-expressions)
-5. [`match` expressions](#match-expressions)
+1. [``if`` expressions](#if-expressions)
+2. [``loop`` expressions](#loop-expressions)
+3. [```while``` expressions](#while-expressions)
+4. [```for``` expressions](#for-expressions)
+5. [```match``` expressions](#match-expressions)
 
-## `if` expressions
+## ``if`` expressions
 
-In Rust, the `if` expression works just like in other programming languages.
+In Rust, the ``if`` expression works just like in other programming languages.
 
 ```rust
 fn main() {
@@ -26,9 +26,9 @@ fn main() {
 }
 ```
 
-## `loop` expressions
+## ``loop`` expressions
 
-The `loop` expression is used to create an infinite loop. So it requires a `break` statement to exit the loop at some point.
+The ``loop`` expression is used to create an infinite loop. So it requires a ``break`` statement to exit the loop at some point.
 
 ```rust
 fn main() {
@@ -46,9 +46,9 @@ fn main() {
 }
 ```
 
-## `while` expressions
+## ``while`` expressions
 
-The `while` expression is used to create a loop that runs as long as a condition is true.
+The ``while`` expression is used to create a loop that runs as long as a condition is true.
 
 ```rust
 fn main() {
@@ -63,9 +63,9 @@ fn main() {
 }
 ```
 
-## `for` expressions
+## ``for`` expressions
 
-The `for` expression is used to loop over a collection of items.
+The ``for`` expression is used to loop over a collection of items.
 
 ```rust
 fn main() {
@@ -88,9 +88,9 @@ fn main() {
 }
 ```
 
-## `match` expressions
+## ``match`` expressions
 
-The `match` expression is used to compare a value against a series of patterns and then execute code based on which pattern matches.
+The ``match`` expression is used to compare a value against a series of patterns and then execute code based on which pattern matches.
 
 ```rust
 fn main() {

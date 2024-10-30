@@ -1,8 +1,8 @@
 # Functions
 
-In Rust, and as previously mentioned, functions are declared using the `fn` keyword.
+In Rust, and as previously mentioned, functions are declared using the ``fn`` keyword.
 
-One other thing to take note of is that, unlike languages like `C` or `C++`, the order of function definitions does not matter in `Rust`. You can define a function after it is called.
+One other thing to take note of is that, unlike languages like ``C`` or ``C++``, the order of function definitions does not matter in ``Rust``. You can define a function after it is called.
 
 ```rust
 fn main() {
@@ -18,7 +18,7 @@ fn another_function() {
 
 ## Naming conventions
 
-Like variables, functions are `snake case`. For example, `another_function` is a `valid` function name.
+Like variables, functions are ``snake case``. For example, ``another_function`` is a ```valid``` function name.
 
 Keep in mind the this is just the idiomatic way of naming functions in Rust. We can name your functions however you like.
 
@@ -45,6 +45,6 @@ fn print_value(x: i32) {
 }
 ```
 
-Another thing to notice is that, for `return` values, we don't need to use the `return` keyword, nor do we need to use a semicolon `;` at the end of the expression. The last expression in the function is implicitly returned.
+Another thing to notice is that, for ``return`` values, we don't need to use the ``return`` keyword, nor do we need to use a semicolon ``;`` at the end of the expression. The last expression in the function is implicitly returned.
 
-I don't like this feature, since it makes the code somewhat inconsistent. I would prefer to always use the `return` keyword with a semicolon `;` at the end of the expression. **But that's just me.**
+I don't like this feature, since it makes the code somewhat inconsistent. I would prefer to always use the ``return`` keyword with a semicolon ``;`` at the end of the expression. **But that's just me.**

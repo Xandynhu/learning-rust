@@ -1,8 +1,8 @@
 # Defining and Instantiating Structs
 
-In `Rust`, we can define a `struct` using the `struct` keyword. A `struct` is a custom data type that lets you name and package together multiple related values that make up a meaningful group.
+In ``Rust``, we can define a ``struct`` using the ``struct`` keyword. A ``struct`` is a custom data type that lets you name and package together multiple related values that make up a meaningful group.
 
-Here is an example of a `struct` definition:
+Here is an example of a ``struct`` definition:
 
 ```rust
 struct User {
@@ -13,7 +13,7 @@ struct User {
 }
 ```
 
-We can create and use an instance of the `User` `struct` like this:
+We can create and use an instance of the ``User`` ``struct`` like this:
 
 ```rust
 fn main() {
@@ -34,8 +34,8 @@ fn main() {
 }
 ```
 
-The `struct` definition is a blueprint for the `struct`, and instances of the `struct` are the actual objects that we can create based on the `struct` definition.
+The ``struct`` definition is a blueprint for the ``struct``, and instances of the ``struct`` are the actual objects that we can create based on the ``struct`` definition.
 
-`NOTE`: In order to change the value of a field in a `struct`, the entire instance must be mutable. We can make an instance mutable by using the `mut` keyword after the `let` keyword.
+``NOTE:`` In order to change the value of a field in a ``struct``, the entire instance must be mutable. We can make an instance mutable by using the ``mut`` keyword after the ``let`` keyword.
 
 

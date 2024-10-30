@@ -22,7 +22,7 @@ In the `chapter 1` we will see how we get started with Rust, how to create a new
 # Make sure we are in the project's root directory
 cd <path>/<to>/the_rust_programming_language
 
-# Build the project with the `debug` profile
+# Build the project with the ``debug`` profile
 cargo build
 
 # Run the executable

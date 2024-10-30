@@ -1,16 +1,16 @@
 # Method Syntax
 
-`Methods` are similar to functions: we declare them with the `fn` keyword and a name. They can also have parameters and a return value. However, unlike functions, `methods` are defined within the context of a `struct` (or an `enum` or a `trait` object - which will be cover on [chapter 6](./../../06_enums_and_pattern_matching/readme.md)).
+`Methods` are similar to functions: we declare them with the ``fn`` keyword and a name. They can also have parameters and a return value. However, unlike functions, ``methods`` are defined within the context of a ``struct`` (or an ``enum`` or a ``trait`` object - which will be cover on [chapter 6](./../../06_enums_and_pattern_matching/readme.md)).
 
 ## Table of Contents
 
 1. [Defining Methods](#defining-methods)
-2. [Where is the `->` Operator?](#where-is-the-`->`-operator)
+2. [Where is the ``->`` Operator?](#where-is-the-`->`-operator)
 3. [Methods with More Parameters](#methods-with-more-parameters)
 
 ## Defining Methods
 
-Here is an example of a method named `area` that calculates the area of a rectangle:
+Here is an example of a method named ``area`` that calculates the area of a rectangle:
 
 ```rust
 struct Rectangle {
@@ -34,17 +34,17 @@ fn main() {
 }
 ```
 
-The `impl` block is where we define methods for a `struct`. In the example above, we define one method named `area` that takes a reference to `self` (we'll explain this in the next section) and returns a `u32`.
+The ``impl`` block is where we define methods for a ``struct``. In the example above, we define one method named ``area`` that takes a reference to ``self`` (we'll explain this in the next section) and returns a ``u32``.
 
-## Where is the `->` Operator?
+## Where is the ``->`` Operator?
 
-In `C` and `C++`, two different operators are used for calling methods: `.` and `->`. The `.` operator is used when we have a struct instance and want to call a method on it. The `->` operator is used when we have a pointer to a struct and want to call a method on it.
+In ``C`` and ``C++``, two different operators are used for calling methods: ``.`` and ``->``. The ``.`` operator is used when we have a struct instance and want to call a method on it. The ``->`` operator is used when we have a pointer to a struct and want to call a method on it.
 
-In `Rust`, we only have the `.` operator. `Rust` automatically takes care of the `->` operator for us with its `automatic reference and dereferencing` feature.
+In ``Rust``, we only have the `.` operator. ``Rust`` automatically takes care of the ``->`` operator for us with its ``automatic reference and dereferencing`` feature.
 
 ## Methods with More Parameters
 
-Methods can take more parameters than just `self`. Here is an example of a method that takes another parameter:
+Methods can take more parameters than just ``self``. Here is an example of a method that takes another parameter:
 
 ```rust
 struct Rectangle {

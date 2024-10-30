@@ -1,6 +1,6 @@
 # Variables and Mutability
 
-As mentioned before, variables in Rust are `immutable` by default. This means that once a value is assigned to a variable, it cannot be changed. We can still make a variable `mutable` by using the `mut` keyword along with the `let` keyword and the variable name.
+As mentioned before, variables in Rust are ``immutable`` by default. This means that once a value is assigned to a variable, it cannot be changed. We can still make a variable ``mutable`` by using the ``mut`` keyword along with the ``let`` keyword and the variable name.
 
 ```rust
 // This will throw an error
@@ -23,13 +23,13 @@ let another_variable = 9;
 
 ## Constants
 
-Constants are declared using the `const` keyword. Constants are **always** immutable and must be annotated with a `type`. Trying to use `mut` with a constant will result in a compilation error.
+Constants are declared using the ``const`` keyword. Constants are **always** immutable and must be annotated with a ``type``. Trying to use ``mut`` with a constant will result in a compilation error.
 
 The difference between constants and variables is that:
 
-1. Constants are `always immutable`
-2. Constants can be declared in `any scope`, including the `global scope`
-3. Constants can only be set to a `constant expression`, it must be a value that can be computed at `compile time`.
+1. Constants are ``always immutable``
+2. Constants can be declared in ``any scope``, including the ``global scope``
+3. Constants can only be set to a ``constant expression``, it must be a value that can be computed at ``compile time``.
 
 ```rust
 fn three_hours_in_seconds() -> u32 {
