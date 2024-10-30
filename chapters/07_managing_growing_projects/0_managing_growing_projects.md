@@ -1,4 +1,4 @@
-# Managing Growing Projects with Packages, Crates, and Modules
+# Chapter 7: Managing Growing Projects with Packages, Crates, and Modules
 
 As we write large programs, organizing our code will become increasingly important. By grouping related functinality and separating code with distinct features, we can make our code easier to understand and maintain. In `Rust`, we can use `packages`, `crates`, and `modules` to organize our code.
 

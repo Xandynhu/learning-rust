@@ -1,4 +1,4 @@
-# Common Programming Concepts
+# Chapter 3: Common Programming Concepts
 
 This chapter covers the basic concepts that are common to most programming languages. None of the concepts here are unique to Rust, but it is important to at least have a feeling of what they look like in Rust.
 

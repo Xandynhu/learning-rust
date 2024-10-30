@@ -1,4 +1,4 @@
-# Guessing Game in Rust
+# Chapter 2: Guessing Game in Rust
 
 A simple number guessing game written in Rust.
 
