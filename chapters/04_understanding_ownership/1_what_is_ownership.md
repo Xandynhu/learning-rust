@@ -2,7 +2,7 @@
 
 ``Ownership`` a set of rules that govern how a ``Rust`` program manages ``memory``. These rules are checked by the Rust compiler at compile time.
 
-## Table of Contents
+# Table of Contents
 
 1. [The Stack and the Heap](#the-stack-and-the-heap)
 2. [Ownership Rules](#ownership-rules)

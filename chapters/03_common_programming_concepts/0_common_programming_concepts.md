@@ -4,7 +4,7 @@ This chapter covers the basic concepts that are common to most programming langu
 
 Also, most of the contents in this chapter were already presented or used in the [guessing game](./../02_programming_a_guessing_game/guessing_game/src/main.rs) from the [chapter 2](./../02_programming_a_guessing_game/readme.md). We are now just formalizing their introduction.
 
-## Table of Contents
+# Table of Contents
 
 1. [Variables and Mutability](./1_variables_and_mutability/readme.md)
 2. [Data Types](./2_data_types/readme.md)

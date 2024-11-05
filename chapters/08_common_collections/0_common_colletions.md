@@ -2,7 +2,7 @@
 
 Rust's standard library includes a number of very useful data structures called ``collections``. Unlike the built-in array and tuple types, these collections store data on the ``heap``.
 
-## Table of Contents
+# Table of Contents
 
 1. [Vectors](./1_storing_lists_of_values_with_vectors.md)
 2. [Strings](./2_storing_utf_8_encoded_text_with_strings.md)

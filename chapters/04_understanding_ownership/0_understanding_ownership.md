@@ -4,7 +4,7 @@
 
 In this chapter, we’ll learn about ownership as well as several related features: ``borrowing``, ``slices``, and how Rust lays data out in memory.
 
-## Table of Contents
+# Table of Contents
 
 1. [What is Ownership?](./01_what_is_ownership/readme.md)
 2. [References and Borrowing](./02_references_and_borrowing/readme.md)

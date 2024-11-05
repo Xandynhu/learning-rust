@@ -2,7 +2,7 @@
 
 For avoiding the overhead of copying and moving data around, ``Rust`` has a feature called ``references``, similar to references in ``C++``.
 
-## Table of Contents
+# Table of Contents
 
 1. [The Rules of References](#the-rules-of-references)
 2. [What is Reference and Borrowing?](#what-is-reference-and-borrowing)

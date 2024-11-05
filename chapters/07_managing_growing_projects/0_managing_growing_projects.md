@@ -22,7 +22,7 @@ Rust has a number of features that allow us to manage and organize our code, sel
 4. **``Paths:``** A way of ``naming`` an item, such as a struct, function, or module.
 
 
-## Table of Contents
+# Table of Contents
 
 1. [Packages and Crates](./1_packages_and_crates/readme.md)
 2. [Defining Modules to Control Scope and Privacy](./2_defining_modules_to_control_scope_and_privacy/readme.md)

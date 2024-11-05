@@ -2,7 +2,7 @@
 
 In this chapter, I'll skip the installation and setup of Rust and Cargo, and focus on how to create a new project, compile and run it.
 
-## Table of Contents
+# Table of Contents
 
 1. [Create a new project](#create-a-new-project)
 2. [Compile and run the project](#compile-and-run-the-project)

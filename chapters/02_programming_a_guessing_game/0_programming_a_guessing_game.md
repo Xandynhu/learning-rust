@@ -4,7 +4,7 @@ A simple number guessing game written in Rust.
 
 The user is prompted to guess a randomly generated number between 1 and 100. After each guess, the program gives feedback whether the guess was too high, too low, or correct. It tracks the number of guesses and displays it at the end when the user wins. The player loses if they guess incorrectly 10 times.
 
-## Table of Contents
+# Table of Contents
 
 1. [Importing Crates and Modules](#1-importing-crates-and-modules)
 2. [Mutable Variables](#3-mutable-variables)

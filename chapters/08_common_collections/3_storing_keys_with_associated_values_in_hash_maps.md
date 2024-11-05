@@ -2,7 +2,7 @@
 
 Here we'll go over the basic API of hash maps, how to create them, and how to update, read, and remove elements.
 
-## Table of Contents
+# Table of Contents
 
 1. [Creating a New Hash Map](#creating-a-new-hash-map)
 2. [Accessing Values in a Hash Map](#accessing-values-in-a-hash-map)

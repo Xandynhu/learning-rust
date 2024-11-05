@@ -4,7 +4,7 @@ This subchapter will cover how to bring paths into scope with the ``use`` keywor
 
 It is also meant to keep everything simple, easy to understand, with not much text and more code examples.
 
-## Table of Contents
+# Table of Contents
 
 1. [Creating Idiomatic ``use`` Paths](#creating-idiomatic-use-paths)
 2. [Providing New Names with the ``as`` Keyword](#providing-new-names-with-the-as-keyword)

@@ -2,7 +2,7 @@
 
 `Methods` are similar to functions: we declare them with the ``fn`` keyword and a name. They can also have parameters and a return value. However, unlike functions, ``methods`` are defined within the context of a ``struct`` (or an ``enum`` or a ``trait`` object - which will be cover on [chapter 6](./../../06_enums_and_pattern_matching/readme.md)).
 
-## Table of Contents
+# Table of Contents
 
 1. [Defining Methods](#defining-methods)
 2. [Where is the ``->`` Operator?](#where-is-the-`->`-operator)

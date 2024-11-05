@@ -1,6 +1,6 @@
 # Packages and Crates
 
-## Table of contents
+# Table of Contents
 
 1. [Crates](#crates)
 2. [Packages](#packages)

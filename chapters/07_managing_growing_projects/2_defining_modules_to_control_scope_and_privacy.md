@@ -2,7 +2,7 @@
 
 In this section we are going to see ``modules`` and other parts of the module system called ``paths``, which allow us to name items and control their visibility and privacy. The ``use`` keyword, which is used to bring a path into scope. The ``pub`` keyword to make items public - so we can ``use`` them in other parts of our code. And the ``as`` keyword to rename items when we bring them into scope.
 
-## Table of Contents
+# Table of Contents
 
 1. [Modules Cheat Sheet](#modules-cheat-sheet)
 2. [Grouping Related Code in Modules](#grouping-related-code-in-modules)

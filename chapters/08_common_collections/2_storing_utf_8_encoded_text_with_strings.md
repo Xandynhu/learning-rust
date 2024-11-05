@@ -10,7 +10,7 @@ But apparently new Rustaceans commonly get stuck on strings for a combination of
 
 So let's dive a bit deeper into the topic of ``Strings``.
 
-## Table of Contents
+# Table of Contents
 
 1. [What is a String?](#what-is-a-string)
 2. [Creating a New String](#creating-a-new-string)

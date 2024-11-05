@@ -29,7 +29,7 @@ cargo build
 ./target/debug/<executable_name>
 ```
 
-## Table of Contents
+# Table of Contents
 
 1. [Getting Started](./chapters/01_getting_started/0_getting_started.md)
     - [[code example](./chapters/01_getting_started/hello_cargo/src/main.rs)]
