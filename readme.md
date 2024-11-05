@@ -67,4 +67,4 @@ cargo build
 9. [Error Handling](./chapters/09_error_handling/0_error_handling.md)
     1. [Unrecoverable Errors with `panic!`](./chapters/09_error_handling/1_unrecoverable_errors_with_panic.md)
     2. [Recoverable Errors with `Result`](./chapters/09_error_handling/2_recoverable_errors_with_result.md)
-    3. [To `panic!` or Not to `panic!`](./chapters/09_error_handling/3_to_panic_or_not_to_panic.md)
+10. [Generic Types, Traits, and Lifetimes](./chapters/10_generic_types_traits_and_lifetimes/0_generic_types_traits_and_lifetimes.md)

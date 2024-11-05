@@ -14,4 +14,3 @@ Most languages don't distinguish between these two kinds of errors and handle bo
 
 1. [Unrecoverable Errors with ``panic!``](./1_unrecoverable_errors_with_panic.md)
 2. [Recoverable Errors with ``Result``](./2_recoverable_errors_with_result.md)
-3. [To ``panic!`` or Not to ``panic!``](./3_to_panic_or_not_to_panic.md)
